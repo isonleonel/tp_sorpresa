@@ -5,5 +5,5 @@ services: # Lista de servicios
       context: . #contexto
       dockerfile: Dockerfile #archivo de Dockerfile
     ports: #puerto contenedor:puerto host
-      - "5005:5005"
+      - "5004:5004"
     restart: always #en caso de error o falla 
