@@ -7,7 +7,7 @@ COPY . /tp_sorpresa_ison
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-EXPOSE 5004
+EXPOSE 5005
 
 ENTRYPOINT [ "python3" ]
 
